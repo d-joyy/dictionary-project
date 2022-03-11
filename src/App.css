@@ -1,9 +1,15 @@
 body {
-  background: #f9f8fe;
+  background: rgb(153, 209, 75);
 }
 
 a {
-  color: #9670f4;
+  color: rgb(245, 134, 52);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(32, 106, 93);
+  font-weight: bold;
 }
 
 .App {
@@ -16,9 +22,10 @@ a {
 }
 
 .App-logo {
-  max-width: 200px;
+  max-width: 250px;
   display: block;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 .App-footer {
