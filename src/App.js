@@ -13,7 +13,26 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Danielle</small>
+          <small>
+            This project was coded by Danielle and is{" "}
+            <a
+              href="https://github.com/d-joyy/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="open-source-code"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://practical-shockley-5dc54f.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hosted"
+            >
+              Netlify.
+            </a>
+          </small>
         </footer>
       </div>
     </div>
