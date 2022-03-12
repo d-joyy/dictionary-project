@@ -17,7 +17,13 @@
   border-radius: 6px;
   padding: 6px 10px;
   color: #333;
-  border: 1px solid rgb(245, 134, 52);
+  border: 2px solid rgb(245, 134, 52);
+}
+
+.Dictionary input:hover {
+  background-color: rgb(255, 204, 41);
+  color: white;
+  font-weight: bold;
 }
 
 .Dictionary .hint {
